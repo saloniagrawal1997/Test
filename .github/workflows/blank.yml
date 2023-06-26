@@ -41,7 +41,7 @@ jobs:
         with:
           loadTestConfigFile: 'config.yaml'
           loadTestResource: Sal2
-          resourceGroup: SaloniTest
+          resourceGroup: Saloni-Test
           
       - uses: actions/upload-artifact@v2
         with:
