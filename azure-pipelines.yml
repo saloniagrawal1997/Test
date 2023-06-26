@@ -15,7 +15,7 @@ steps:
 
 - task: AzureLoadTest@1
   inputs:
-    azureSubscription: $(serviceConnection)
+    azureSubscription: SaloniSer
     loadTestConfigFile: 'config.yaml'
     loadTestResource: Sal2
     resourceGroup: Saloni-Test
